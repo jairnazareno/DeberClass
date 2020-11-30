@@ -21,7 +21,7 @@ namespace DeberClass.Forms
         private void btnCalcular_Click_1(object sender, EventArgs e)
         {
             int calcular = int.Parse(txtNumero.Text);
-            string cad = TIC.Utilidades.factoriales(calcular);
+            string cad = TIC.Utilidades.factorial(calcular);
             this.txtRespuesta.Text = cad;
         }
     }

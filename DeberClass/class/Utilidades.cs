@@ -8,17 +8,17 @@ namespace TIC
 {
     public class Utilidades
     {
-        public static string factoriales(int calcular)
+        public static string factorial(int calcular)
         {
             int i;
             double result = 1;
-            string aux;
+            string a;
             for (i = 1; i <= calcular; i++)
             {
                 result = result * i;
             }
-            aux = result + Environment.NewLine;
-            return aux;
+            a= result + Environment.NewLine;
+            return a;
         }
     }
 }

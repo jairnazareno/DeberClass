@@ -34,5 +34,10 @@ namespace DeberClass.Forms
             }
             lbrespuesta.Text = "La respuesta es : " + resultado;
         }
+
+        private void frmSuma_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

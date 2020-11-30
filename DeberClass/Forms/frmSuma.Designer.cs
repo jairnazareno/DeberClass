@@ -38,7 +38,7 @@
             // 
             // btnCalcular
             // 
-            this.btnCalcular.Location = new System.Drawing.Point(529, 43);
+            this.btnCalcular.Location = new System.Drawing.Point(343, 43);
             this.btnCalcular.Name = "btnCalcular";
             this.btnCalcular.Size = new System.Drawing.Size(98, 35);
             this.btnCalcular.TabIndex = 0;
@@ -52,26 +52,25 @@
             this.lbrespuesta.BackColor = System.Drawing.Color.Transparent;
             this.lbrespuesta.Font = new System.Drawing.Font("Microsoft Tai Le", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbrespuesta.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbrespuesta.Location = new System.Drawing.Point(78, 225);
+            this.lbrespuesta.Location = new System.Drawing.Point(40, 149);
             this.lbrespuesta.Name = "lbrespuesta";
-            this.lbrespuesta.Size = new System.Drawing.Size(71, 27);
+            this.lbrespuesta.Size = new System.Drawing.Size(0, 27);
             this.lbrespuesta.TabIndex = 17;
-            this.lbrespuesta.Text = "label3";
             // 
             // txtfin
             // 
             this.txtfin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfin.Location = new System.Drawing.Point(383, 61);
+            this.txtfin.Location = new System.Drawing.Point(193, 61);
             this.txtfin.Name = "txtfin";
-            this.txtfin.Size = new System.Drawing.Size(100, 31);
+            this.txtfin.Size = new System.Drawing.Size(111, 31);
             this.txtfin.TabIndex = 15;
             // 
             // txtinicio
             // 
             this.txtinicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtinicio.Location = new System.Drawing.Point(383, 20);
+            this.txtinicio.Location = new System.Drawing.Point(193, 24);
             this.txtinicio.Name = "txtinicio";
-            this.txtinicio.Size = new System.Drawing.Size(100, 31);
+            this.txtinicio.Size = new System.Drawing.Size(111, 31);
             this.txtinicio.TabIndex = 14;
             // 
             // label2
@@ -82,9 +81,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(27, 65);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(240, 27);
+            this.label2.Size = new System.Drawing.Size(115, 27);
             this.label2.TabIndex = 13;
-            this.label2.Text = " Ingrese el Parametro n";
+            this.label2.Text = " Ingrese  n";
             // 
             // label1
             // 
@@ -94,15 +93,15 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(27, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(233, 27);
+            this.label1.Size = new System.Drawing.Size(108, 27);
             this.label1.TabIndex = 12;
-            this.label1.Text = " Ingrese el Parametro i";
+            this.label1.Text = " Ingrese  i";
             // 
             // frmSuma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(541, 305);
             this.Controls.Add(this.lbrespuesta);
             this.Controls.Add(this.txtfin);
             this.Controls.Add(this.txtinicio);
@@ -111,6 +110,7 @@
             this.Controls.Add(this.btnCalcular);
             this.Name = "frmSuma";
             this.Text = "frmSuma";
+            this.Load += new System.EventHandler(this.frmSuma_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
